@@ -12,7 +12,7 @@ const createFile = async (file_path) => {
     }
 };
 
-const path = "./productos.json";
+const path = "./productos.txt";
 createFile(path);
 const myProductManager = new ProductManager(path);
 
